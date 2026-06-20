@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGI Hospitalar | Gestão de Equipamentos Médicos</title>
+    <!-- Bootstrap CSS -->
+    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="assets/fontawesome/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="#">SGI Hospitalar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-primary" href="login.php">Acesso Restrito</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">Soluções Inteligentes para Inventário Hospitalar</h1>
+            <p class="lead mb-5">Otimize a gestão do ciclo de vida dos seus equipamentos médicos com a nossa plataforma centralizada.</p>
+            <a href="#servicos" class="btn btn-light btn-lg px-5">Saiba Mais</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="servicos" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Nossos Serviços</h2>
+                <p class="text-muted">Especialistas em sistemas de informação para a área da saúde.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 text-center">
+                    <div class="p-4 border rounded shadow-sm h-100">
+                        <div class="feature-icon">📋</div>
+                        <h4>Gestão de Inventário</h4>
+                        <p>Controlo total de equipamentos, desde a aquisição até à desativação, com rastreabilidade completa.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="p-4 border rounded shadow-sm h-100">
+                        <div class="feature-icon">📂</div>
+                        <h4>Gestão Documental</h4>
+                        <p>Centralização de manuais, certificados de calibração e contratos de manutenção num único local.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="p-4 border rounded shadow-sm h-100">
+                        <div class="feature-icon">📊</div>
+                        <h4>Dashboards Analíticos</h4>
+                        <p>Visão em tempo real do estado do parque tecnológico para apoio à decisão técnica e administrativa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4">Sobre a SGI Hospitalar</h2>
+                    <p>Somos uma empresa de desenvolvimento de software especializada em engenharia biomédica e sistemas de informação hospitalares. A nossa missão é substituir modelos obsoletos de gestão por ferramentas digitais modernas e eficientes.</p>
+                    <p>A nossa solução foi desenhada para responder aos desafios reais das unidades de saúde, garantindo a conformidade com normas internacionais e facilitando processos de auditoria.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Tecnologia Médica" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Entre em Contacto</h2>
+                <p class="text-muted">Estamos prontos para ajudar a modernizar a sua instituição.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Seu Nome" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Seu Email" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Assunto">
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" rows="5" placeholder="Sua Mensagem" required></textarea>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg px-5">Enviar Mensagem</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p class="mb-2">&copy; 2025 SGI Hospitalar. Todos os direitos reservados.</p>
+            <p class="small text-muted">Projeto desenvolvido para a unidade curricular de Sistemas de Informação e Base de Dados Aplicados à Saúde (LEBIOM 2025-2026).</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

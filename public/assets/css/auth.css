@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.card-header {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    border-radius: 15px 15px 0 0 !important;
+    padding: 2rem;
+}
+.card-header i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.btn-primary {
+    padding: 0.8rem;
+    font-weight: 600;
+}
+.hospital-logo {
+    font-weight: 700;
+    letter-spacing: -1px;
+}
