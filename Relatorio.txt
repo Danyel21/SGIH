@@ -1,5 +1,46 @@
 Relatório de SIBDAS
 LEBIOM 2025/20026
 
+Relatório de SIBDAS  
+LEBIOM 2025/2026  
+
+====================================================
+
 1. Instruções
-assa
+
+Este projeto consiste numa aplicação web desenvolvida para gestão de dados hospitalares/laboratoriais, permitindo a administração de utilizadores, equipamentos, fornecedores, manutenções e outros módulos clínicos.
+
+1.1 Tecnologias utilizadas:
+- PHP
+- HTML / CSS
+- JavaScript
+- MySQL
+- Git / GitHub
+- Laragon (ambiente local)
+
+1.2 Funcionalidades principais:
+- Autenticação de utilizadores (login/logout)
+- Gestão de utilizadores
+- Gestão de equipamentos
+- Gestão de componentes
+- Gestão de localizações
+- Gestão de fornecedores
+- Gestão de Funcionários
+- Gestão de manutenções
+- Gestão de garantias
+- Upload e gestão de ficheiros
+- Estrutura modular com views separadas
+
+1.3 Estrutura do projeto:
+- /public → ficheiros públicos (login, index)
+- /views → páginas organizadas por módulos
+- /includes → componentes reutilizáveis
+- /assets → CSS, JS e imagens
+- /uploads → ficheiros enviados
+- /private → lógica e proteção de dados
+
+1.4 Objetivo:
+Criar um sistema de gestão do inventário centralizado para apoio à organização e controlo de equipamentos e dos dados laboratoriais/hospitalares.
+
+====================================================
+Fim do relatório
