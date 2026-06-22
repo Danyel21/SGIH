@@ -50,7 +50,7 @@ commit
 # FRONTEND
 
 [Frontend] Desenvolvimento da página de login responsiva
-- Criação da interface de login adaptada a dispositivos móveis e desktop.
+- Criação da interface de login.
 
 [Frontend] Implementação do dashboard principal
 - Estruturação do painel principal com widgets e resumo de dados.
@@ -62,13 +62,13 @@ commit
 - Layout base para gestão de utilizadores.
 
 [Frontend] Página de equipamentos
-- Interface para listagem e gestão de equipamentos.
+- Interface para listagem e gestão e de filtragem de equipamentos.
 
 [Frontend] Interface de fornecedores
-- Página para gestão de fornecedores.
+- Página para gestão e de filtragem de fornecedores.
 
-[Frontend] Página de manutenções com filtros
-- Sistema de filtros para histórico de manutenções.
+[Frontend] Página de manutenções
+- Página para gestão e de filtragem de manutenções.
 
 [Frontend] Área de garantias
 - Interface para controlo de garantias de equipamentos.
@@ -79,14 +79,14 @@ commit
 [Frontend] Secção de uploads
 - Área para upload de ficheiros.
 
-[Frontend] Página de relatórios
-- Visualização e exportação de relatórios.
+[Frontend] Secção de documentos
+- Visualização e exportação de documentos.
 
-[Frontend] Componentes reutilizáveis
-- Criação de componentes UI reutilizáveis.
+[Frontend] Página de componentes de equipamentos
+- Página para gestão e de filtragem de componentes de equipamentos.
 
-[Frontend] Responsividade mobile
-- Ajustes gerais para compatibilidade mobile.
+[Frontend] Página de utilizadores 
+- Página para gestão e de filtragem de utilizadores
 
 [Frontend] Ajustes UI/UX finais
 - Refinamento final da interface e experiência do utilizador.
