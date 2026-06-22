@@ -88,8 +88,8 @@ commit
 [Frontend] Página de utilizadores 
 - Página para gestão e de filtragem de utilizadores
 
-[Frontend] Ajustes UI/UX finais
-- Refinamento final da interface e experiência do utilizador.
+[Frontend] Página de Perfil de utilizadores
+- Página para gestão de dados do utilizador.
 
 
 # BACKEND
@@ -121,20 +121,36 @@ commit
 [Backend] Gestão de garantias
 - Controlo de garantias associadas a equipamentos.
 
-[Backend] Localizações backend
-- Gestão de localizações no servidor.
+[Backend] Localizações 
+- Gestão de localizações.
 
 [Backend] Upload de ficheiros
 - Sistema de upload e armazenamento.
 
-[Backend] Sistema de relatórios
-- Geração de relatórios de dados.
+[Backend] Sistema de documentação
+- Upload de documentos de equipamentos.
 
 [Backend] Validação de dados
 - Regras de validação para inputs.
 
-[Backend] Segurança de rotas
-- Proteção de endpoints e páginas.
+[Backend] Gestão de permissões (roles)
+- Definição de níveis de acesso (ex: admin, funcionário...ect.).
+- Controlo de acesso a páginas e funcionalidades com base no tipo de utilizador.
+
+[Backend] API interna em PHP
+- Criação de endpoints para comunicação com frontend (AJAX/Fetch).
+- Retorno de dados em JSON para operações dinâmicas.
+
+[Backend] Sistema de headers e includes reutilizáveis
+
+- Estruturação de componentes reutilizáveis como header, footer, sidebar e user_menu.
+
+[Backend] Tratamento de erros e segurança
+- Validação de inputs para prevenir SQL Injection e XSS.
+
+[Backend] Gestão de dados da aplicação
+- Inserção e leitura de dados através de ficheiros como insert_db.php e db_data.php.
+- Organização da lógica de persistência de dados.
 
 [Backend] Otimização de base de dados
 - Melhorias de performance em queries e estrutura.
